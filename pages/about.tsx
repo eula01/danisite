@@ -24,7 +24,7 @@ export default function About() {
             Day to day: structured trade finance and derivatives at a metals
             house. Also built our in-house CTRM.
           </p>
-          <p>Background across insurance, energy infrastructure, commodities.</p>
+          <p>Background across commodities, energy infrastructure, and insurance.</p>
           <p style={{ marginTop: "2em" }}>UWC South East Asia & Warwick Alumni.</p>
         </div>
       </main>
