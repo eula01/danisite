@@ -7,25 +7,20 @@ export default function About() {
         <div>
           <p>Things I'm thinking about:</p>
           <ul style={{ listStyleType: "disc", color: "inherit" }}>
-            <li>
-              The financialisation of compute. Do reservations become futures? Do those
-              derivatives stabilize the AI buildout or just add leverage? Does inference ever become a tradable commodity?
-            </li>
+            <li>The financialisation of compute</li>
             <li>Helium-3</li>
             <li>Energy infrastructure. Very bullish on nuclear.</li>
             <li>
               How technology compresses cash cycles in trade commodity finance
             </li>
             <li>
-              Rollups in traditional industries, keeping back office thin with technology, and going wide in distribution
+              Rollups in traditional industries, keeping back office thin with technology and going wide in distribution
             </li>
           </ul>
           <p style={{ marginTop: "2em" }}>
-            Day to day: structured trade finance and derivatives at a metals
-            house. Also built our in-house CTRM.
+            Current: structured trade finance and derivatives at a metals house. Also built a full CTRM in-house with Claude.
           </p>
-          <p>Background across commodities, energy infrastructure, and insurance.</p>
-          <p style={{ marginTop: "2em" }}>UWC South East Asia & Warwick Alumni.</p>
+          <p>Prev: insurtech startup (hire 1, acq.), energy infrastructure, commodities, Warwick uni, UWC Singapore</p>
         </div>
       </main>
     </Layout>
