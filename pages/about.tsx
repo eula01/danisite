@@ -5,50 +5,27 @@ export default function About() {
     <Layout title="About" description="About me">
       <main>
         <div>
-          <p>
-            I'm currently interested in metals trading, derivatives, capital
-            markets, energy transition, and emerging markets.
-          </p>
-          <p>
-            Derivatives & Capital Markets at{" "}
-            <a href="https://metycle.com" target="_blank">
-              <em>METYCLE</em>
-            </a>
-            . Managing exposure across physical metals and LME derivatives,
-            hedging to control basis risk and P&L volatility, and structuring
-            credit facilities to scale trading capacity.
-          </p>
-          <p>Previously:</p>
+          <p>Things I'm thinking about:</p>
           <ul style={{ listStyleType: "disc", color: "inherit" }}>
             <li>
-              Markets & Operations at a precious metals trading startup (grew
-              revenue to $75M)
+              The financialisation of compute. Do reservations become futures? Do those
+              derivatives stabilize the AI buildout or just add leverage? Does inference ever become a tradable commodity?
+            </li>
+            <li>Helium-3</li>
+            <li>Energy infrastructure. Very bullish on nuclear.</li>
+            <li>
+              How technology compresses cash cycles in trade commodity finance
             </li>
             <li>
-              Chief of Staff (Hire 1) at <em>Juniper</em> (acquired) —
-              engineered real-time risk engine, secured FCA Sandbox approval
-            </li>
-            <li>
-              Associate at{" "}
-              <a href="https://www.shiftcleanenergy.com/" target="_blank">
-                <em>Shift Clean Energy</em>
-              </a>
-            </li>
-            <li>
-              Visiting Associate at{" "}
-              <a href="https://www.arisaig.com/" target="_blank">
-                <em>Arisaig Partners</em>
-              </a>
+              Rollups in traditional industries, keeping back office thin with technology, and going wide in distribution
             </li>
           </ul>
           <p style={{ marginTop: "2em" }}>
-            PPE (Economics Major) from Warwick, First Class — Department of
-            Economics Examiners' Prize for Best Dissertation. IB from UWC South
-            East Asia.
+            Day to day: structured trade finance and derivatives at a metals
+            house. Also built our in-house CTRM.
           </p>
-          <p style={{ marginTop: "2em" }}>
-            Reach out on LinkedIn.
-          </p>
+          <p>Background across insurance, energy infrastructure, commodities.</p>
+          <p style={{ marginTop: "2em" }}>UWC South East Asia & Warwick Alumni.</p>
         </div>
       </main>
     </Layout>
