@@ -30,6 +30,12 @@ export default function Nav() {
               Books
             </Link>
           </li>
+          <div className="" />
+          <li>
+            <Link href="/research" legacyBehavior>
+              Research
+            </Link>
+          </li>
           <div className="spacer" />
           <div className="spacer" />
 
