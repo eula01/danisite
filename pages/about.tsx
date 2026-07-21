@@ -18,9 +18,9 @@ export default function About() {
             </li>
           </ul>
           <p style={{ marginTop: "2em" }}>
-            Current: structured trade finance and derivatives at a metals house. Also built a full CTRM in-house with Claude.
+            Current: Structured trade finance and derivatives at a metals house. Also built a full CTRM in-house with Claude.
           </p>
-          <p>Prev: insurtech startup (hire 1, acq.), energy infrastructure, commodities, Warwick uni, UWC Singapore</p>
+          <p>Prev: Insurtech startup (hire 1, acq.), energy infrastructure, commodities, Warwick uni, UWC Singapore</p>
         </div>
       </main>
     </Layout>
