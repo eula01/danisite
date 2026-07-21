@@ -4,12 +4,12 @@ export default function Research() {
   return (
     <Layout title="Research" description="Research">
       <main>
-        <div>
+        <div className="research">
           <p><strong>Estimating ESG Scores Separately</strong></p>
-          <p style={{ color: "var(--light-text)", fontSize: "0.9em", marginBottom: "0" }}>
+          <p style={{ color: "var(--light-text)", fontSize: "0.9em" }}>
             Department of Economics Examiners' Prize for Best Dissertation, University of Warwick, 2023. Recommended for publication.
           </p>
-          <hr style={{ marginTop: "16px", marginBottom: "16px" }} />
+          <hr style={{ marginTop: "12px", marginBottom: "12px" }} />
           <p><strong>ESG ratings are mostly noise.</strong></p>
           <p>
             In 2022, $2.5tn was invested in ESG funds on the assumption that the ratings capture something real. I tested this using an instrumental variable approach, treating competing agencies' scores as instruments for each other, to separate signal from noise.
@@ -28,6 +28,12 @@ export default function Research() {
           />
         </div>
       </main>
+      <style jsx>{`
+        .research p {
+          margin-bottom: 10px;
+          line-height: 20px;
+        }
+      `}</style>
     </Layout>
   );
 }
