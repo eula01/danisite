@@ -12,12 +12,8 @@ export default function Research() {
           <p>
             More than 50% of the aggregate ESG score is noise. For environmental ratings it's over 85%. Most ESG-driven investment decisions are made on noise, not signal. This has since become more widely acknowledged. It wasn't the consensus in 2022.
           </p>
-          <hr />
           <p style={{ color: "var(--light-text)", fontSize: "0.9em" }}>
-            Awarded the Department of Economics Examiners' Prize for Best Dissertation — University of Warwick, 2023. Recommended for publication by the Department of Economics.
-          </p>
-          <p>
-            <a href="/dissertation.pdf" download>Download PDF ↓</a>
+            Warwick, 2023 — prize for best dissertation, recommended for publication. <a href="/dissertation.pdf" download style={{ color: "var(--light-text)" }}>Download ↓</a>
           </p>
           <iframe
             src="/dissertation.pdf"
