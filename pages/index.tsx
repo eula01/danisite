@@ -23,16 +23,31 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData, description, words }) {
   return (
-    <Layout title="Blog" description={description}>
+    <Layout title="dani" description={description}>
       <main>
-        <Image
-          src={land}
-          alt=""
-          height="500"
-          placeholder="blur"
-        />
+        <div className="photo">
+          <Image
+            src={land}
+            alt=""
+            placeholder="blur"
+            fill
+            className="photo-img"
+          />
+        </div>
       </main>
       <footer></footer>
+      <style jsx>{`
+        .photo {
+          position: relative;
+          width: 100%;
+          height: 420px;
+          margin-top: 16px;
+        }
+        .photo-img {
+          object-fit: cover;
+          filter: grayscale(15%);
+        }
+      `}</style>
     </Layout>
   );
 }

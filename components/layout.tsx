@@ -1,6 +1,7 @@
 import siteConfig from '../siteConfig.json';
 
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Nav from './nav';
 import codeTheme from './codeTheme';
@@ -8,6 +9,7 @@ import codeTheme from './codeTheme';
 export default function Layout({ children, title, description }) {
   return (
     <div className="container">
+
       <Head>
         <script
           data-goatcounter={`https://${siteConfig.GOAT_COUNTER}.goatcounter.com/count`}
@@ -44,45 +46,46 @@ export default function Layout({ children, title, description }) {
       <Nav />
       <div>{children}</div>
       <style jsx global>{`
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Unbounded:wght@900&family=Inter:wght@400;500&family=Outfit:wght@300;400&display=swap');
+
         :root {
-          --text: #1d1d27;
+          --text: #111111;
           --input-background: #fff;
-          --link: #a8432a;
-          --link-hover: #6e2a1c;
-          --light-text: #8a7568;
-          --harmony: #b87a52;
-          --border: #a88b78;
-          --button: #a8432a;
+          --link: #C8102E;
+          --link-hover: #9e0d24;
+          --light-text: #6b6b6b;
+          --border: #e0e0e0;
+          --button: #C8102E;
           --button-text: #fff;
+          --font-serif: 'Playfair Display', Georgia, serif;
         }
 
         .light-1 {
-          color: var(--light-text)
+          color: var(--light-text);
         }
 
         html,
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-            Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-            'Segoe UI Symbol';
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
           font-size: 15px;
+          font-weight: 400;
           letter-spacing: -0.01em;
+          background: #fff;
         }
+
         .container {
-          display: grid;
-          grid-template-columns: 15em 1fr;
-          grid-template-rows: 1fr;
-          max-width: 54em;
-          padding-top: 0;
+          display: block;
+          max-width: 680px;
           margin-left: auto;
           margin-right: auto;
-          max-width: ${siteConfig.LAYOUT_WIDTH}px;
-          padding-top: 50px;
-          padding-right: 16px;
-          padding-bottom: 96px;
+          padding-top: 32px;
+          padding-left: 24px;
+          padding-right: 24px;
+          padding-bottom: 48px;
         }
+
 
         h1,
         h2,
@@ -90,15 +93,16 @@ export default function Layout({ children, title, description }) {
         h4,
         h5,
         h6 {
-          letter-spacing: -0.24px;
+          font-family: var(--font-serif);
           font-weight: 400;
+          letter-spacing: -0.3px;
           padding-top: 16px;
-          padding-bottom: 16px;
+          padding-bottom: 8px;
         }
 
         p {
           margin-bottom: 24px;
-          line-height: 24px;
+          line-height: 26px;
           color: var(--text);
         }
 
@@ -114,6 +118,7 @@ export default function Layout({ children, title, description }) {
         }
 
         hr {
+          border: none;
           border-top: 1px solid var(--border);
           margin-top: 48px;
           margin-bottom: 48px;
@@ -140,27 +145,27 @@ export default function Layout({ children, title, description }) {
 
         a:hover {
           color: var(--link-hover);
-          text-decoration: none;
+          text-decoration: underline;
         }
 
         ul {
-          list-style-type: square;
+          list-style-type: disc;
         }
 
         li {
           padding-bottom: 6px;
-          line-height: 24px;
+          line-height: 26px;
         }
 
         blockquote {
-          margin-left: 16px;
-          border-left-color: var(--border);
-          border-left-style: solid;
-          border-left-width: 1px;
+          margin-left: 0;
+          border-left: 2px solid var(--link);
+          padding-left: 20px;
         }
 
         blockquote > p {
-          padding-left: 16px;
+          color: var(--light-text);
+          font-style: italic;
         }
       `}</style>
     </div>
