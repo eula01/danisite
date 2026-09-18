@@ -34,6 +34,7 @@ export default function Home({ allPostsData, description, words }) {
             className="photo-img"
           />
         </div>
+        <p className="caption">Beijing, 1965 - Marc Riboud</p>
       </main>
       <footer></footer>
       <style jsx>{`
@@ -46,6 +47,14 @@ export default function Home({ allPostsData, description, words }) {
         .photo-img {
           object-fit: cover;
           filter: grayscale(15%);
+        }
+        .caption {
+          font-size: 0.75em;
+          color: var(--light-text);
+          margin-top: 8px;
+          margin-bottom: 0;
+          text-align: center;
+          font-style: italic;
         }
       `}</style>
     </Layout>
