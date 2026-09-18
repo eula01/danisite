@@ -39,6 +39,7 @@ export default function Nav() {
           font-size: 0.95em;
           color: var(--text);
           text-decoration: none;
+          white-space: nowrap;
         }
         .site-name:hover {
           color: var(--link);
@@ -54,6 +55,18 @@ export default function Nav() {
         }
         li {
           padding: 0;
+        }
+        @media (max-width: 600px) {
+          .nav {
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+          }
+          ul {
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
         }
       `}</style>
     </header>

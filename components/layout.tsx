@@ -85,6 +85,12 @@ export default function Layout({ children, title, description }) {
           padding-right: 24px;
           padding-bottom: 48px;
         }
+        @media (max-width: 600px) {
+          .container {
+            padding-top: 16px;
+            padding-bottom: 32px;
+          }
+        }
 
 
         h1,
