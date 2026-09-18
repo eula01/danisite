@@ -46,12 +46,16 @@ export default function Home({ allPostsData, description, words }) {
         <div className="carousel">
           <button className="arrow left" onClick={prev} aria-label="Previous">&lt;</button>
           <div className="photo">
-            <Image
-              src={photos[index].src}
-              alt=""
-              placeholder="blur"
-              style={{ width: '100%', height: 'auto', display: 'block', filter: 'grayscale(15%)' }}
-            />
+            {photos.map((photo, i) => (
+              <Image
+                key={i}
+                src={photo.src}
+                alt=""
+                placeholder="blur"
+                priority={i === 0}
+                style={{ width: '100%', height: 'auto', display: i === index ? 'block' : 'none', filter: 'grayscale(15%)' }}
+              />
+            ))}
           </div>
           <button className="arrow right" onClick={next} aria-label="Next">&gt;</button>
         </div>
