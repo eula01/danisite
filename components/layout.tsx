@@ -51,11 +51,11 @@ export default function Layout({ children, title, description }) {
         :root {
           --text: #111111;
           --input-background: #fff;
-          --link: #C8102E;
-          --link-hover: #9e0d24;
+          --link: #c42448;
+          --link-hover: #9e1c3a;
           --light-text: #6b6b6b;
           --border: #e0e0e0;
-          --button: #C8102E;
+          --button: #c42448;
           --button-text: #fff;
           --font-serif: 'Playfair Display', Georgia, serif;
         }
