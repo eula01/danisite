@@ -15,6 +15,9 @@ export default function Books() {
             <li>Love's Executioner</li>
           </ul>
         </div>
+        <p style={{ marginTop: '2em' }}>
+          <span style={{ color: 'var(--link)' }}>Currently:</span> The World of Yesterday - Stefan Zweig
+        </p>
       </main>
     </Layout>
   );
