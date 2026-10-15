@@ -13,6 +13,7 @@ export default function Links() {
             <li><a href="https://caseyhandmer.wordpress.com/2025/12/03/scaling-career-and-family-systems-thinking-public-school-home-enrichment/" target="_blank">Scaling Career and Family</a> — Casey Handmer</li>
             <li><a href="https://dirtcheapstocks.substack.com/p/how-warren-buffett-earned-a-39-irr" target="_blank">How Warren Buffett Earned a 39% IRR</a> — Buffett Knows Arb</li>
             <li><a href="https://moontowermeta.com/" target="_blank">Moontower</a> — Kris Abdelmessih</li>
+            <li><a href="https://www.robin-guo.com/p/life-is-poker-not-chess" target="_blank">Life is Poker, Not Chess</a> — Robin Guo</li>
           </ul>
         </div>
       </main>
